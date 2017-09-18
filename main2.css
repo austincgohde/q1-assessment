@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(./fonts/AvenirNextLTPro-Regular.otf)
+}
+
+* {
+  font-family: Avenir;
+}
+
+#header-p {
+  padding-left: 5%;
+  padding-top: 40px;
+  font-size: 32px;
+  margin: 0;
+}
+
+#album-scroll {
+  display: flex;
+  justify-content: center;
+  overflow-x: scroll;
+}
+
+.albums {
+  margin: 15px 10px 40px 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+#bin {
+  border: 2px solid #37474f;
+  background-color: #eeeeee;
+  width: 90%;
+  height: 300px;
+  font-family: Avenir;
+  font-size: 18px;
+  overflow-y: scroll;
+}
+
+.bin-p {
+  margin: 0;
+  padding: 4px;
+  font-style: oblique;
+}
+
+#btn-div {
+  padding-left: 5%;
+}
+
+#clear {
+  margin-right: 2%;
+}
+
+#splash {
+  position: absolute;
+  right: 5%;
+  bottom: 8%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#footer-p {
+  font-size: 20px;
+  padding-left: 5%;
+  margin: 7px;
+}
